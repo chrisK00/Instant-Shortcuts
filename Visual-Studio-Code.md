@@ -32,13 +32,13 @@
 | Reverse undo | **CTRL + Y** |
 
 ## Navigation
- | Title                         | Command        |
- | ----------------------------- | -------------- |
- | - Go to line                  | **CTRL + G**   |
- | - Go to next error/warning    | **F8**         |
- | - Find                        | **CTRL + F**   |
- | - Go to beginning/end of line | **Home/End**   |
- | - Quick switch tab            | **CTRL + TAB** |
+ | Title                       | Command        |
+ | --------------------------- | -------------- |
+ | Go to line                  | **CTRL + G**   |
+ | Go to next error/warning    | **F8**         |
+ | Find                        | **CTRL + F**   |
+ | Go to beginning/end of line | **Home/End**   |
+ | Quick switch tab            | **CTRL + TAB** |
 
 #### Resources
 - [VSCode cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
