@@ -25,7 +25,5 @@
  | Reload                 | **F5**                     |
  | Reload and clear cache | **CTRL + F5**              |
 
-https://www.computerhope.com/shortcut/chrome.htm
-
 #### Resources
 - [computerhope chrome shortcuts](https://www.computerhope.com/shortcut/chrome.htm)
