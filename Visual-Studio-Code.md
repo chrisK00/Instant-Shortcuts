@@ -40,6 +40,11 @@
  | Go to beginning/end of line | **Home/End**   |
  | Quick switch tab            | **CTRL + TAB** |
 
+ ## Codestream
+ | Title       | Command                                |
+ | ----------- | -------------------------------------- |
+ | Add comment | **CTRL + SHIFT + ', CTRL + SHIFT + C** |
+
 #### Resources
 - [VSCode cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
