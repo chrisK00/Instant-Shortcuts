@@ -13,9 +13,15 @@
  | Create folder                | **mkdir** |
 
 ## Git
- | Title                   | Command      |
- | ----------------------- | ------------ |
- | initialize a local repo | **git init** |
+ | Title                           | Command              |
+ | ------------------------------- | -------------------- |
+ | initialize a local repo         | **git init**         |
+ | Track all files                 | **git add .**        |
+ | Commit staged changes           | **git commit -m**    |
+ | Commit all changes              | **git commit -am**   |
+ | Reset changes in current branch | **git reset --hard** |
+ | New branch                      | **git checkout -b**  |
+ | Branch status                   | **ggit status**      |
 
  ## dotnet cli
  | Title                      | Command                         |
@@ -30,7 +36,7 @@
  | Run           | **ng serve**                    |
  | Run and open  | **ng serve --open**             |
  | Add Service   | **ng g s --skip-tests**         |
- | Component     | **ng g c --skip-tests**         |
+ | Add Component | **ng g c --skip-tests**         |
  | Add bootstrap | **ng add ngx-bootstrap**        |
  | Install CLI   | **npm install -g @angular/cli** |
  | Add Interface | **ng g interface**              |
