@@ -14,6 +14,7 @@
 | Find and edit all occurrences of a word | **CTRL + SHIFT + L**   |
 | Format                                  | **SHIFT + ALT + F**    |
 | Reveal in file explorer                 | **SHIFT + ALT + R**    |
+| Open recent folders                     | **CTRL + R**           |
 
 ##  Lines 
 | Title         | Command                         |
