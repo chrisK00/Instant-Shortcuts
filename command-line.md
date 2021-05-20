@@ -24,22 +24,34 @@
  | Branch status                   | **ggit status**      |
 
  ## dotnet cli
- | Title                      | Command                         |
- | -------------------------- | ------------------------------- |
- | New app                    | **dotnet new console/classlib** |
- | Run and track code changes | **dotnet watch run**            |
- | run tests                  | **dotnet test**                 |
+ | Title                      | Command                                |
+ | -------------------------- | -------------------------------------- |
+ | New app                    | **dotnet new console/classlib**        |
+ | New app with name          | **dotnet new console/classlib --name** |
+ | Run and track code changes | **dotnet watch run**                   |
+ | run tests                  | **dotnet test**                        |
 
  ## Angular CLI
- | Title         | Command                         |
- | ------------- | ------------------------------- |
- | Run           | **ng serve**                    |
- | Run and open  | **ng serve --open**             |
- | Add Service   | **ng g s --skip-tests**         |
- | Add Component | **ng g c --skip-tests**         |
- | Add bootstrap | **ng add ngx-bootstrap**        |
- | Install CLI   | **npm install -g @angular/cli** |
- | Add Interface | **ng g interface**              |
+ | Title                        | Command                                   |
+ | ---------------------------- | ----------------------------------------- |
+ | Run                          | **ng serve**                              |
+ | Run and open                 | **ng serve --open**                       |
+ | Add Service                  | **ng g s --skip-tests**                   |
+ | Add Component                | **ng g c --skip-tests**                   |
+ | Add bootstrap                | **ng add ngx-bootstrap**                  |
+ | Add schematics for bootstrap | **npm install @schematics/angular@9.1.0** |
+ | Install CLI                  | **npm install -g @angular/cli**           |
+ | Add Interface                | **ng g interface**                        |
+
+
+## docker in Powershell
+| Title                   | Command           |
+| ----------------------- | ----------------- |
+| list running containers | **docker ps**     |
+| attach to console       | **docker attach** |
+| list images             | **docker images** |
+| run image               | **docker run**    |
+
 
 
 
