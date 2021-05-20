@@ -15,6 +15,7 @@
 | Format                                  | **SHIFT + ALT + F**    |
 | Reveal in file explorer                 | **SHIFT + ALT + R**    |
 | Open recent folders                     | **CTRL + R**           |
+| Save as                                 | **CTRL + SHIFT + S**   |
 
 ##  Lines 
 | Title         | Command                         |
@@ -27,11 +28,14 @@
 | Multi comment | **ALT + SHIFT + A**             |
 
 ##  Text editing
-| Title        | Command      |
-| ------------ | ------------ |
-| Replace      | **CTRL + H** |
-| Reverse      | **CTRL + Z** |
-| Reverse undo | **CTRL + Y** |
+| Title            | Command                     |
+| ---------------- | --------------------------- |
+| Replace          | **CTRL + H**                |
+| Reverse          | **CTRL + Z**                |
+| Reverse undo     | **CTRL + Y**                |
+| Fix indent       | **SHIFT + ALT + F**         |
+| Cursor jump over | **CTRL + Left/Right arrow** |
+| Highlight line   | **SHIFT + Home/End **       |
 
 ## Navigation
  | Title                       | Command        |
