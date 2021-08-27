@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Sets up dependency injection method</Title>
+      <Author>
+      </Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>cCdi</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="csharp" Delimiter="$"><![CDATA[  /*
+         EXAMPLE
+        var serviceProvider = ConfigureServices().BuildServiceProvider();
+        serviceProvider.GetRequiredService<Menu>().Run();
+        */
+
+        /*
+        EXAMPLE
+         services.Configure<ApiUriSettings>(config.GetSection(nameof(ApiUriSettings)));
+         services.AddSingleton<NaLogger>();
+         services.AddScoped<Menu>();
+         */
+
+        /*
+         INFO
+        make an appsettings.json file (shift+f2) then set copytooutput ifnewer
+        packages:
+        ms extensions configuration
+        ms extensions dependency injection
+        ms extensions configuration json
+        ms extensions options
+        */
+
+        private static IServiceCollection ConfigureServices()
+        {
+            var services = new ServiceCollection();
+            var config = ConfigureBuild();
+
+            return services;
+        }
+
+        private static IConfigurationRoot ConfigureBuild()
+        {
+            return new ConfigurationBuilder()
+                  .SetBasePath(Directory.GetCurrentDirectory())
+                  .AddJsonFile("appsettings.json")
+                  .Build();
+        }]]></Code>
+      <Imports>
+        <Import>
+          <Namespace>Microsoft.Extensions.Hosting</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
