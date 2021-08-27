@@ -52,9 +52,6 @@
 | list images             | **docker images** |
 | run image               | **docker run**    |
 
-
-
-
 #### Resources
 - [common git commands]( http://guides.beanstalkapp.com/version-control/common-git-commands.html)
 

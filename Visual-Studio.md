@@ -1,9 +1,11 @@
  ## General
- | Title      | Command                |
- | ---------- | ---------------------- |
- | Fix indent | **CTRL + K, CTRL + D** |
- | Comment    | **CTRL + K, CTRL + C** |
- | Rename     | **CTRL + R + R**       |
+ | Title             | Command                  |
+ | ----------------- | ------------------------ |
+ | Fix indent        | **CTRL + K, CTRL + D**   |
+ | Comment           | **CTRL + K, CTRL + C**   |
+ | Uncomment         | **CTRL + K, CTRL + U**   |
+ | Rename            | **CTRL + R + R**         |
+ | View constructors | **CTRL + SHIFT + SPACE** |
 
 
   ## Run
