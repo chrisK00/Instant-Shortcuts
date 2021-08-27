@@ -5,7 +5,10 @@
  | Comment           | **CTRL + K, CTRL + C**   |
  | Uncomment         | **CTRL + K, CTRL + U**   |
  | Rename            | **CTRL + R + R**         |
+ | Rename 2          | **F2**                   |
  | View constructors | **CTRL + SHIFT + SPACE** |
+ | Find and replace  | **CTRL + SHIFT + F**     |
+ | Replace Text      | **CTRL + H**             |
 
 
   ## Run
@@ -24,7 +27,7 @@
  | Go to definition     | **F12**        |
  | Go to implementation | **CTRL + F12** |
 
- ## Pacakge manager console
+ ## Package manager console
  | Title                   | Command                              |
  | ----------------------- | ------------------------------------ |
  | Install package         | **install-package**                  |

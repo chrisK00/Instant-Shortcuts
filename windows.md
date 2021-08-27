@@ -14,6 +14,8 @@
  | File explorer         | **WinKey + E**        |
  | Go to bottom/top      | **CTRL + Home/End**   |
  | Quick link            | **CTRL + X**          |
+ | Delete backwards      | **Delete**            |
+ | Delete line backwards | **Shift + Delete**    |
 
  #### Resources
 - [30 essential windows key shortcuts](https://www.howtogeek.com/686985/30-essential-windows-key-keyboard-shortcuts-for-windows-10/)

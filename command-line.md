@@ -13,15 +13,16 @@
  | Create folder                | **mkdir** |
 
 ## Git
- | Title                           | Command              |
- | ------------------------------- | -------------------- |
- | initialize a local repo         | **git init**         |
- | Track all files                 | **git add .**        |
- | Commit staged changes           | **git commit -m**    |
- | Commit all changes              | **git commit -am**   |
- | Reset changes in current branch | **git reset --hard** |
- | New branch                      | **git checkout -b**  |
- | Branch status                   | **ggit status**      |
+ | Title                                                                          | Command              |
+ | ------------------------------------------------------------------------------ | -------------------- |
+ | initialize a local repo                                                        | **git init**         |
+ | Track all files                                                                | **git add .**        |
+ | Commit staged changes                                                          | **git commit -m**    |
+ | Commit all changes                                                             | **git commit -am**   |
+ | Reset changes in current branch                                                | **git reset --hard** |
+ | New branch                                                                     | **git checkout -b**  |
+ | Branch status                                                                  | **git status**       |
+ | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                      |
 
  ## dotnet cli
  | Title                      | Command                                |
