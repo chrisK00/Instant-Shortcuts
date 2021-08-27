@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Readonly field</Title>
+      <Shortcut>cSwitch</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[$item$ = $option$ switch
+           {
+               _ => 
+           }]]>
+      </Code>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>item</ID>
+		  <Default>item</Default>
+        </Literal>
+        <Literal>
+          <ID>option</ID>
+          <ToolTip>what to switch on</ToolTip>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
