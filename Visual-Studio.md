@@ -1,14 +1,21 @@
  ## General
  | Title             | Command                  |
  | ----------------- | ------------------------ |
- | Fix indent        | **CTRL + K, CTRL + D**   |
  | Comment           | **CTRL + K, CTRL + C**   |
  | Uncomment         | **CTRL + K, CTRL + U**   |
- | Rename            | **CTRL + R + R**         |
- | Rename 2          | **F2**                   |
  | View constructors | **CTRL + SHIFT + SPACE** |
- | Find and replace  | **CTRL + SHIFT + F**     |
- | Replace Text      | **CTRL + H**             |
+
+
+ ## Refactor/Format
+ | Title                        | Command                |
+ | ---------------------------- | ---------------------- |
+ | Fix indent                   | **CTRL + K, CTRL + D** |
+ | Rename                       | **CTRL + R + R**       |
+ | Rename 2                     | **F2**                 |
+ | Find and replace             | **CTRL + SHIFT + F**   |
+ | Replace Text                 | **CTRL + H**           |
+ | Codemaid order class members | **CTRL + M, Z**        |
+ | Codemaid format document     | **CTRL + M, Space**    |
 
 
   ## Run
