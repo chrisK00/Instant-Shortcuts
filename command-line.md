@@ -25,12 +25,14 @@
  | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                      |
 
  ## dotnet cli
- | Title                      | Command                                |
- | -------------------------- | -------------------------------------- |
- | New app                    | **dotnet new console/classlib**        |
- | New app with name          | **dotnet new console/classlib --name** |
- | Run and track code changes | **dotnet watch run**                   |
- | run tests                  | **dotnet test**                        |
+ | Title                                         | Command                                                      |
+ | --------------------------------------------- | ------------------------------------------------------------ |
+ | New app                                       | **dotnet new console/classlib**                              |
+ | New app with name                             | **dotnet new console/classlib --name**                       |
+ | Run and track code changes                    | **dotnet watch run**                                         |
+ | run tests                                     | **dotnet test**                                              |
+ | add a user secrets file                       | **dotnet user-secrets init**                                 |
+ | add a key to user secrets and specify project | **dotnet user-secrets set "Class:Property" "Key" --project** |
 
  ## Angular CLI
  | Title                        | Command                                   |
