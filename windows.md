@@ -1,8 +1,24 @@
 ## Windows
- | Title       | Command              |
- | ----------- | -------------------- |
- | Move Window | **WinKey + [Arrow]** |
- | Task View   | **WinKey + Tab**     |
+ | Title           | Command              |
+ | --------------- | -------------------- |
+ | Move Window     | **WinKey + [Arrow]** |
+ | Task View       | **WinKey + Tab**     |
+ | Quick task view | **ALT + TAB**        |
+
+## Draw IO
+ | Title      | Command      |
+ | ---------- | ------------ |
+ | Copy paste | **CTRL + D** |
+ | Rename     | **F2**       |
+
+ ## ShareX
+ | Title          | Command                  |
+ | -------------- | ------------------------ |
+ | Region picture | **PrtSc**                |
+ | Gif            | **CTRL + PrtSc**         |
+ | Screen record  | **Shift + PrtSc**        |
+ | Active Window  | **ALT + PrtSc**          |
+ | Entire Screen  | **CTRL + Shift + PrtSc** |
 
  ## General
  | Title                 | Command               |
