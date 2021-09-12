@@ -35,7 +35,7 @@
 | Reverse undo     | **CTRL + Y**                |
 | Fix indent       | **SHIFT + ALT + F**         |
 | Cursor jump over | **CTRL + Left/Right arrow** |
-| Highlight line   | **SHIFT + Home/End **       |
+| Highlight line   | **SHIFT + Home/End**        |
 
 ## Navigation
  | Title                       | Command        |

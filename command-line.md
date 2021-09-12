@@ -5,24 +5,32 @@
  | Open in file explorer | **start .** |
 
   ## General
- | Title                        | Command   |
- | ---------------------------- | --------- |
- | Go back 1 folder             | **cd..**  |
- | Go in to folder              | **cd**    |
- | list files in open directory | **dir**   |
- | Create folder                | **mkdir** |
+ | Title                              | Command   |
+ | ---------------------------------- | --------- |
+ | Go back 1 folder                   | **cd..**  |
+ | Go in to folder                    | **cd**    |
+ | list files in open directory (win) | **dir**   |
+ | list files in open directory       | **ls**    |
+ | Create folder                      | **mkdir** |
+ | Remove folder                      | **rmdir** |
 
 ## Git
- | Title                                                                          | Command              |
- | ------------------------------------------------------------------------------ | -------------------- |
- | initialize a local repo                                                        | **git init**         |
- | Track all files                                                                | **git add .**        |
- | Commit staged changes                                                          | **git commit -m**    |
- | Commit all changes                                                             | **git commit -am**   |
- | Reset changes in current branch                                                | **git reset --hard** |
- | New branch                                                                     | **git checkout -b**  |
- | Branch status                                                                  | **git status**       |
- | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                      |
+ | Title                                                                          | Command                   |
+ | ------------------------------------------------------------------------------ | ------------------------- |
+ | initialize a local repo                                                        | **git init**              |
+ | Track all files                                                                | **git add .**             |
+ | Commit staged changes                                                          | **git commit -m**         |
+ | Commit all changes                                                             | **git commit -am**        |
+ | Reset changes in current branch                                                | **git reset --hard**      |
+ | New branch and check it out                                                    | **git checkout -b**       |
+ | New branch or view branches                                                    | **git branch**            |
+ | Push branch to remote                                                          | **git push**              |
+ | Rename branch                                                                  | **git branch -m**         |
+ | Reset branch commits                                                           | **git reset HEAD~**       |
+ | Remove changes                                                                 | **git reset --hard**      |
+ | Branch status                                                                  | **git merge [from] [to]** |
+ | Merge branch                                                                   | **git status**            |
+ | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                           |
 
  ## dotnet cli
  | Title                                         | Command                                                      |
@@ -48,12 +56,14 @@
 
 
 ## docker in Powershell
-| Title                   | Command           |
-| ----------------------- | ----------------- |
-| list running containers | **docker ps**     |
-| attach to console       | **docker attach** |
-| list images             | **docker images** |
-| run image               | **docker run**    |
+| Title                   | Command              |
+| ----------------------- | -------------------- |
+| list running containers | **docker ps**        |
+| attach to console       | **docker attach**    |
+| list images             | **docker images**    |
+| run image               | **docker run**       |
+| view network tasks      | **netstat -a -n -o** |
+| kill task               | **-f /pid [number]** |
 
 #### Resources
 - [common git commands]( http://guides.beanstalkapp.com/version-control/common-git-commands.html)
