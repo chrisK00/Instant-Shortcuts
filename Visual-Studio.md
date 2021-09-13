@@ -1,9 +1,12 @@
  ## General
- | Title             | Command                  |
- | ----------------- | ------------------------ |
- | Comment           | **CTRL + K, CTRL + C**   |
- | Uncomment         | **CTRL + K, CTRL + U**   |
- | View constructors | **CTRL + SHIFT + SPACE** |
+ | Title                       | Command                  |
+ | --------------------------- | ------------------------ |
+ | Comment                     | **CTRL + K, CTRL + C**   |
+ | Clipboard ring              | **CTRL + SHIFT + V**     |
+ | Search                      | **CTRL + Q**             |
+ | Set/remove Breakpoint       | **F9**                   |
+ | Uncomment                   | **CTRL + K, CTRL + U**   |
+ | View constructors/overloads | **CTRL + SHIFT + SPACE** |
 
 
  ## Refactor/Format
