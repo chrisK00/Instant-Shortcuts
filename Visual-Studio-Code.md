@@ -38,13 +38,14 @@
 | Highlight line   | **SHIFT + Home/End**        |
 
 ## Navigation
- | Title                       | Command        |
- | --------------------------- | -------------- |
- | Go to line                  | **CTRL + G**   |
- | Go to next error/warning    | **F8**         |
- | Find                        | **CTRL + F**   |
- | Go to beginning/end of line | **Home/End**   |
- | Quick switch tab            | **CTRL + TAB** |
+ | Title                       | Command          |
+ | --------------------------- | ---------------- |
+ | Go to line                  | **CTRL + G**     |
+ | Go to next error/warning    | **F8**           |
+ | Find                        | **CTRL + F**     |
+ | Search                      | **CTRL+SHIFT+F** |
+ | Go to beginning/end of line | **Home/End**     |
+ | Quick switch tab            | **CTRL + TAB**   |
 
  ## Codestream
  | Title       | Command                                |
