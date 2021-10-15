@@ -47,6 +47,8 @@
  | Search                      | **CTRL+SHIFT+F** |
  | Go to beginning/end of line | **Home/End**     |
  | Quick switch tab            | **CTRL + TAB**   |
+ | Go to next error            | **F8**           |
+ | Go to previous error        | **Shift + F8**   |
 
  ## Codestream
  | Title       | Command                                |
