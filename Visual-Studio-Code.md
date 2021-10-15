@@ -36,6 +36,7 @@
 | Fix indent       | **SHIFT + ALT + F**         |
 | Cursor jump over | **CTRL + Left/Right arrow** |
 | Highlight line   | **SHIFT + Home/End**        |
+| Select word      | **CTRL + D**                |
 
 ## Navigation
  | Title                       | Command          |

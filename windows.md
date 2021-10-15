@@ -10,6 +10,22 @@
  | ---------- | ------------ |
  | Copy paste | **CTRL + D** |
  | Rename     | **F2**       |
+ 
+## 1Passw
+ | Title     | Command             |
+ | --------- | ------------------- |
+ | Lock      | **CTRL + Win + L**  |
+ | Open      | **Shift + Win + X** |
+ | Open Mini | **CTRL + Win + X**  |
+
+ ## OneNote
+ | Title             | Command                   |
+ | ----------------- | ------------------------- |
+ | Todo box          | **CTRL + 1**              |
+ | Star              | **CTRL + 2**              |
+ | Question          | **CTRL + 3**              |
+ | Move line up/down | **Shift + ALT + [arrow]** |
+ | Rename            | **F2**                    |
 
  ## ShareX
  | Title          | Command                  |
