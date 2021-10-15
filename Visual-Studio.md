@@ -1,9 +1,12 @@
  ## General
- | Title             | Command                  |
- | ----------------- | ------------------------ |
- | Comment           | **CTRL + K, CTRL + C**   |
- | Uncomment         | **CTRL + K, CTRL + U**   |
- | View constructors | **CTRL + SHIFT + SPACE** |
+ | Title                       | Command                  |
+ | --------------------------- | ------------------------ |
+ | Comment                     | **CTRL + K, CTRL + C**   |
+ | Clipboard ring              | **CTRL + SHIFT + V**     |
+ | Search                      | **CTRL + Q**             |
+ | Set/remove Breakpoint       | **F9**                   |
+ | Uncomment                   | **CTRL + K, CTRL + U**   |
+ | View constructors/overloads | **CTRL + SHIFT + SPACE** |
 
 
  ## Refactor/Format
@@ -33,15 +36,17 @@
  | Build             | **CTRL + B**          |
 
    ## Navigation
- | Title                 | Command         |
- | --------------------- | --------------- |
- | Go to                 | **CTRL + T**    |
- | Peek definition       | **ALT + F12**   |
- | Go to definition      | **F12**         |
- | Go to implementation  | **CTRL + F12**  |
- | Find text             | **CTRL + F**    |
- | Find references       | **SHIFT + F12** |
- | Delete text backwards | **Del**         |
+ | Title                 | Command              |
+ | --------------------- | -------------------- |
+ | Go to                 | **CTRL + T**         |
+ | Peek definition       | **ALT + F12**        |
+ | Go to definition      | **F12**              |
+ | Go to implementation  | **CTRL + F12**       |
+ | Find text             | **CTRL + F**         |
+ | Find references       | **SHIFT + F12**      |
+ | Delete text backwards | **Del**              |
+ | Close open tab        | **CTRL + F4**        |
+ | Next/Prev tab         | **CTRL + PgUp/PgDn** |
 
  ## Package manager console
  | Title                   | Command                              |

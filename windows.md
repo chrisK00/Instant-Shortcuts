@@ -1,7 +1,7 @@
 ## Windows
  | Title           | Command              |
  | --------------- | -------------------- |
- | Move Window     | **WinKey + [Arrow]** |
+ | Move Window     | **WinKey + [arrow]** |
  | Task View       | **WinKey + Tab**     |
  | Quick task view | **ALT + TAB**        |
 
@@ -10,6 +10,22 @@
  | ---------- | ------------ |
  | Copy paste | **CTRL + D** |
  | Rename     | **F2**       |
+ 
+## 1Passw
+ | Title     | Command             |
+ | --------- | ------------------- |
+ | Lock      | **CTRL + Win + L**  |
+ | Open      | **Shift + Win + X** |
+ | Open Mini | **CTRL + Win + X**  |
+
+ ## OneNote
+ | Title             | Command                   |
+ | ----------------- | ------------------------- |
+ | Todo box          | **CTRL + 1**              |
+ | Star              | **CTRL + 2**              |
+ | Question          | **CTRL + 3**              |
+ | Move line up/down | **Shift + ALT + [arrow]** |
+ | Rename            | **F2**                    |
 
  ## ShareX
  | Title          | Command                  |
@@ -21,17 +37,18 @@
  | Entire Screen  | **CTRL + Shift + PrtSc** |
 
  ## General
- | Title                 | Command               |
- | --------------------- | --------------------- |
- | Lock                  | **WinKey + L**        |
- | Clipboard history     | **WinKey + V**        |
- | Settings              | **WinKey + I**        |
- | Open app from taskbar | **WinKey + [number]** |
- | File explorer         | **WinKey + E**        |
- | Go to bottom/top      | **CTRL + Home/End**   |
- | Quick link            | **CTRL + X**          |
- | Delete backwards      | **Delete**            |
- | Delete line backwards | **Shift + Delete**    |
+ | Title                                              | Command                   |
+ | -------------------------------------------------- | ------------------------- |
+ | Lock                                               | **WinKey + L**            |
+ | Clipboard history                                  | **WinKey + V**            |
+ | Settings                                           | **WinKey + I**            |
+ | Open app from taskbar                              | **WinKey + [number]**     |
+ | File explorer                                      | **WinKey + E**            |
+ | Go to bottom/top                                   | **CTRL + Home/End**       |
+ | Quick link                                         | **CTRL + X**              |
+ | Delete backwards                                   | **Delete**                |
+ | Delete line backwards                              | **CTRL + Shift + Delete** |
+ | Navigate with keyboard (not supported by all apps) | **ALT + [arrow]]**        |
 
  #### Resources
 - [30 essential windows key shortcuts](https://www.howtogeek.com/686985/30-essential-windows-key-keyboard-shortcuts-for-windows-10/)
