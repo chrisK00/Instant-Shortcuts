@@ -47,6 +47,8 @@
  | Go to bottom/top                                   | **CTRL + Home/End**       |
  | Quick link                                         | **CTRL + X**              |
  | Delete backwards                                   | **Delete**                |
+ | Select range                                       | **Shift**                 |
+ | Select specific items                              | **CTRL**                  |
  | Delete line backwards                              | **CTRL + Shift + Delete** |
  | Navigate with keyboard (not supported by all apps) | **ALT + [arrow]]**        |
 
