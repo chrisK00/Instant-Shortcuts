@@ -1,9 +1,11 @@
 ## Windows
- | Title           | Command              |
- | --------------- | -------------------- |
- | Move Window     | **WinKey + [arrow]** |
- | Task View       | **WinKey + Tab**     |
- | Quick task view | **ALT + TAB**        |
+ | Title                 | Command              |
+ | --------------------- | -------------------- |
+ | Move Window           | **WinKey + [arrow]** |
+ | Task View             | **WinKey + Tab**     |
+ | Quick task view       | **ALT + TAB**        |
+ | Start menu next tab   | **TAB**              |
+ | Start menu navigation | **[arrow]**          |
 
 ## Draw IO
  | Title      | Command      |
