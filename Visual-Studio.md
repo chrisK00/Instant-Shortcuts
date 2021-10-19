@@ -10,18 +10,20 @@
 
 
  ## Refactor/Format
- | Title                        | Command                |
- | ---------------------------- | ---------------------- |
- | Fix indent                   | **CTRL + K, CTRL + D** |
- | Rename                       | **CTRL + R + R**       |
- | Rename 2                     | **F2**                 |
- | Intellisense                 | **CTRL + .**           |
- | Intellicode                  | **CTRL + Space**       |
- | Find and replace             | **CTRL + SHIFT + F**   |
- | Replace Text                 | **CTRL + H**           |
- | Codemaid order class members | **CTRL + M, Z**        |
- | Codemaid format document     | **CTRL + M, Space**    |
- | Move  Line up or down        | **SHIFT + [Arrow]**    |
+ | Title                             | Command                |
+ | --------------------------------- | ---------------------- |
+ | Fix indent                        | **CTRL + K, CTRL + D** |
+ | Rename                            | **CTRL + R + R**       |
+ | Rename 2                          | **F2**                 |
+ | Intellisense                      | **CTRL + .**           |
+ | Intellicode                       | **CTRL + Space**       |
+ | Find and replace                  | **CTRL + SHIFT + F**   |
+ | Replace Text                      | **CTRL + H**           |
+ | Codemaid order class members      | **CTRL + M, Z**        |
+ | Codemaid format document          | **CTRL + M, Space**    |
+ | Move  Line up or down             | **SHIFT + [Arrow]**    |
+ | Move highlighted items left 1 tab | **SHIFT + TAB**        |
+ | Move highlighted items 1 tab      | **TAB**                |
 
 
   ## Run
