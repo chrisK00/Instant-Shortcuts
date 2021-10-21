@@ -49,6 +49,8 @@
  | Delete text backwards | **Del**              |
  | Close open tab        | **CTRL + F4**        |
  | Next/Prev tab         | **CTRL + PgUp/PgDn** |
+ | Next error            | **F8**               |
+ | Previous error        | **F8 + Shift**       |
 
  ## Package manager console
  | Title                   | Command                              |
