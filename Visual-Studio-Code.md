@@ -1,21 +1,21 @@
 ## General
-| Title                                   | Command                |
-| --------------------------------------- | ---------------------- |
-| Command Palette                         | **CTRL + SHIFT + P**   |
-| Search file                             | **CTRL + P**           |
-| Toggle explorer                         | **CTRL + B**           |
-| Change file name                        | **F2**                 |
-| New VSCode window                       | **CTRL + SHIFT + N**   |
-| Close window                            | **CTRL + W**           |
-| Save file                               | **CTRL + S**           |
-| Start                                   | **F5**                 |
-| Open terminal                           | **CTRL + SHIFT + Ö**   |
-| Open folder                             | **CTRL + K, CTRL + O** |
-| Find and edit all occurrences of a word | **CTRL + SHIFT + L**   |
-| Format                                  | **SHIFT + ALT + F**    |
-| Reveal in file explorer                 | **SHIFT + ALT + R**    |
-| Open recent folders                     | **CTRL + R**           |
-| Save as                                 | **CTRL + SHIFT + S**   |
+| Title                                   | Command                    |
+| --------------------------------------- | -------------------------- |
+| Command Palette                         | **CTRL + SHIFT + P or F1** |
+| Search file                             | **CTRL + P**               |
+| Toggle explorer                         | **CTRL + B**               |
+| Change file name                        | **F2**                     |
+| New VSCode window                       | **CTRL + SHIFT + N**       |
+| Close window                            | **CTRL + W**               |
+| Save file                               | **CTRL + S**               |
+| Start                                   | **F5**                     |
+| Open terminal                           | **CTRL + SHIFT + Ö**       |
+| Open folder                             | **CTRL + K, CTRL + O**     |
+| Find and edit all occurrences of a word | **CTRL + SHIFT + L**       |
+| Format                                  | **SHIFT + ALT + F**        |
+| Reveal in file explorer                 | **SHIFT + ALT + R**        |
+| Open recent folders                     | **CTRL + R**               |
+| Save as                                 | **CTRL + SHIFT + S**       |
 
 ##  Lines 
 | Title         | Command                         |
