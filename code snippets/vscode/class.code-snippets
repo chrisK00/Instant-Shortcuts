@@ -1,0 +1,9 @@
+{
+	"Class": {
+		"scope": "javascript,typescript",
+		"prefix": "class",
+		"body": [
+			"class $1 {$2}"
+		]
+	}
+}
