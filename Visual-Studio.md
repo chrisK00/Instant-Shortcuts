@@ -7,6 +7,7 @@
  | Set/remove Breakpoint       | **F9**                   |
  | Uncomment                   | **CTRL + K, CTRL + U**   |
  | View constructors/overloads | **CTRL + SHIFT + SPACE** |
+ | Open search                 |    **CTRL + T**          |
 
 
  ## Refactor/Format

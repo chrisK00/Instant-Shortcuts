@@ -56,6 +56,20 @@
  | ----------- | -------------------------------------- |
  | Add comment | **CTRL + SHIFT + ', CTRL + SHIFT + C** |
 
+ ## Search
+ | Title                                        | Command              | Key   |
+ | -------------------------------------------- | -------------------- | ----- |
+ | Find Files                                   | **CTRL + P**         |
+ | Command Palette                              | **CTRL + SHIFT + P** |
+ | Go To Symbol                                 | **CTRL + SHIFT + 0** |
+ | Multiple times to edit the highlighted items | **CTRL + D**         |
+ | On multiple places works aswell              | **ALT+ CLICK**       |
+ | Highlight line by line                       | **CTRL + L**         |
+ | Find symbol in file                          | **CTRL + P**         | **@** |
+ | Execute command                              |                      | **>** |
+ | Search project for symbol                    |                      | **#** |
+
+
 #### Resources
 - [VSCode cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
