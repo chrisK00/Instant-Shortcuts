@@ -52,14 +52,14 @@
  | Previous error        | **F8 + Shift**       |
  
  ## Search
- | Title          | Command     | Key (case sensitive) |
- | -------------- | ----------- | -------------------- |
- | Open Search    | CTRL + T/,  |                      |
- | Member in file | CTRL + 1, M | m                    |
- | Files          | CTRL + 1, F | f                    |
- | Type           | CTRL + 1, T | t                    |
- | Symbol         | CTRL + 1, S | s                    |
- | Recent files   | CTRL + 1, r | r                    |
+ | Title          | Command         | Key (case sensitive) |
+ | -------------- | --------------- | -------------------- |
+ | Open Search    | **CTRL + T/,**  |                      |
+ | Member in file | **CTRL + 1, M** | **m**                |
+ | Files          | **CTRL + 1, F** | **f**                |
+ | Type           | **CTRL + 1, T** | **t**                |
+ | Symbol         | **CTRL + 1, S** | **s**                |
+ | Recent files   | **CTRL + 1, r** | **r**                |
 
  ## Package manager console
  | Title                   | Command                              |
