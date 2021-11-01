@@ -40,7 +40,6 @@
    ## Navigation
  | Title                 | Command              |
  | --------------------- | -------------------- |
- | Go to                 | **CTRL + T**         |
  | Peek definition       | **ALT + F12**        |
  | Go to definition      | **F12**              |
  | Go to implementation  | **CTRL + F12**       |
@@ -51,6 +50,16 @@
  | Next/Prev tab         | **CTRL + PgUp/PgDn** |
  | Next error            | **F8**               |
  | Previous error        | **F8 + Shift**       |
+ 
+ ## Search
+ | Title          | Command     | Key (case sensitive) |
+ | -------------- | ----------- | -------------------- |
+ | Open Search    | CTRL + T/,  |                      |
+ | Member in file | CTRL + 1, M | m                    |
+ | Files          | CTRL + 1, F | f                    |
+ | Type           | CTRL + 1, T | t                    |
+ | Symbol         | CTRL + 1, S | s                    |
+ | Recent files   | CTRL + 1, r | r                    |
 
  ## Package manager console
  | Title                   | Command                              |
