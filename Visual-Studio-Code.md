@@ -57,14 +57,15 @@
  | Add comment | **CTRL + SHIFT + ', CTRL + SHIFT + C** |
 
  ## Search
- | Title                                        | Command              | Key   |
- | -------------------------------------------- | -------------------- | ----- |
- | Open Search  / find file                     | **CTRL + P**         |       |
- | Execute Command                              | **CTRL + SHIFT + P** | **>** |
- | Go To Symbol in file                         | **CTRL + SHIFT + 0** | **@** |
- | Multiple times to edit the highlighted items | **CTRL + D**         |
- | Highlight line by line                       | **CTRL + L**         |
- | Find Symbol                                  |                      | **#** |
+ | Title                                            | Command              | Key   |
+ | ------------------------------------------------ | -------------------- | ----- |
+ | Open Search  / find file                         | **CTRL + P**         |       |
+ | Execute Command                                  | **CTRL + SHIFT + P** | **>** |
+ | Go To Symbol in file                             | **CTRL + SHIFT + 0** | **@** |
+ | Multiple times to edit the highlighted items     | **CTRL + D**         |
+ | Highlight line by line                           | **CTRL + L**         |
+ | Find Symbol                                      |                      | **#** |
+ | Can click on several and change at the same time | **ALT+CLICK**        |
  
 
 
