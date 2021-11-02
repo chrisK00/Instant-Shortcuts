@@ -1,0 +1,9 @@
+{
+	"Constructor": {
+		"scope": "javascript,typescript",
+		"prefix": "ctor",
+		"body": [
+			"constructor ($1) {$2}"
+		]
+	}
+}

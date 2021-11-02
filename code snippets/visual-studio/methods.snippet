@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+
+  <!-- method -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>public method</Title>
+      <Shortcut>method</Shortcut>
+      <Description>Code snippet for a public method</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ $returnType$ $name$()
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- method1 -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>public method with one argument</Title>
+      <Shortcut>method1</Shortcut>
+      <Description>Code snippet for a public method with one argument</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1Type</ID>
+          <ToolTip>Replace with the type of the 1st argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1</ID>
+          <ToolTip>Replace with the name of the 1st argument</ToolTip>
+          <Default>arg</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ $returnType$ $name$($arg1Type$ $arg1$)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- method2 -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>public method with two arguments</Title>
+      <Shortcut>method2</Shortcut>
+      <Description>Code snippet for a public method with two arguments</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1Type</ID>
+          <ToolTip>Replace with the type of the 1st argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1</ID>
+          <ToolTip>Replace with the name of the 1st argument</ToolTip>
+          <Default>arg1</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2Type</ID>
+          <ToolTip>Replace with the type of the 2nd argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2</ID>
+          <ToolTip>Replace with the name of the 2nd argument</ToolTip>
+          <Default>arg2</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ $returnType$ $name$($arg1Type$ $arg1$, $arg2Type$ $arg2$)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- method3 -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>public method with three arguments</Title>
+      <Shortcut>method3</Shortcut>
+      <Description>Code snippet for a public method with three arguments</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1Type</ID>
+          <ToolTip>Replace with the type of the 1st argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1</ID>
+          <ToolTip>Replace with the name of the 1st argument</ToolTip>
+          <Default>arg1</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2Type</ID>
+          <ToolTip>Replace with the type of the 2nd argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2</ID>
+          <ToolTip>Replace with the name of the 2nd argument</ToolTip>
+          <Default>arg2</Default>
+        </Literal>
+        <Literal>
+          <ID>arg3Type</ID>
+          <ToolTip>Replace with the type of the 3rd argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg3</ID>
+          <ToolTip>Replace with the name of the 3rd argument</ToolTip>
+          <Default>arg3</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ $returnType$ $name$($arg1Type$ $arg1$, $arg2Type$ $arg2$, $arg3Type$ $arg3$)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- vmethod -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>virtual method</Title>
+      <Shortcut>vmethod</Shortcut>
+      <Description>Code snippet for a virtual method</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ virtual $returnType$ $name$()
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- vmethod1 -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>virtual method with one argument</Title>
+      <Shortcut>vmethod1</Shortcut>
+      <Description>Code snippet for a virtual method with one argument</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1Type</ID>
+          <ToolTip>Replace with the type of the 1st argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1</ID>
+          <ToolTip>Replace with the name of the 1st argument</ToolTip>
+          <Default>arg</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ virtual $returnType$ $name$($arg1Type$ $arg1$)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- vmethod2 -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>virtual method with two arguments</Title>
+      <Shortcut>vmethod2</Shortcut>
+      <Description>Code snippet for a virtual method with two arguments</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1Type</ID>
+          <ToolTip>Replace with the type of the 1st argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1</ID>
+          <ToolTip>Replace with the name of the 1st argument</ToolTip>
+          <Default>arg1</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2Type</ID>
+          <ToolTip>Replace with the type of the 2nd argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2</ID>
+          <ToolTip>Replace with the name of the 2nd argument</ToolTip>
+          <Default>arg2</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ virtual $returnType$ $name$($arg1Type$ $arg1$, $arg2Type$ $arg2$)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- vmethod3 -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>virtual method with three arguments</Title>
+      <Shortcut>vmethod3</Shortcut>
+      <Description>Code snippet for a virtual method with three arguments</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1Type</ID>
+          <ToolTip>Replace with the type of the 1st argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1</ID>
+          <ToolTip>Replace with the name of the 1st argument</ToolTip>
+          <Default>arg1</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2Type</ID>
+          <ToolTip>Replace with the type of the 2nd argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2</ID>
+          <ToolTip>Replace with the name of the 2nd argument</ToolTip>
+          <Default>arg2</Default>
+        </Literal>
+        <Literal>
+          <ID>arg3Type</ID>
+          <ToolTip>Replace with the type of the 3rd argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg3</ID>
+          <ToolTip>Replace with the name of the 3rd argument</ToolTip>
+          <Default>arg3</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ virtual $returnType$ $name$($arg1Type$ $arg1$, $arg2Type$ $arg2$, $arg3Type$ $arg3$)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- smethod -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>static method</Title>
+      <Shortcut>smethod</Shortcut>
+      <Description>Code snippet for a public static method</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ static $returnType$ $name$()
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- smethod1 -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>static method with one argument</Title>
+      <Shortcut>smethod1</Shortcut>
+      <Description>Code snippet for a public static method with one argument</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1Type</ID>
+          <ToolTip>Replace with the type of the 1st argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1</ID>
+          <ToolTip>Replace with the name of the 1st argument</ToolTip>
+          <Default>arg</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ static $returnType$ $name$($arg1Type$ $arg1$)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- smethod2 -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>static method with two arguments</Title>
+      <Shortcut>smethod2</Shortcut>
+      <Description>Code snippet for a public static method with two arguments</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1Type</ID>
+          <ToolTip>Replace with the type of the 1st argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1</ID>
+          <ToolTip>Replace with the name of the 1st argument</ToolTip>
+          <Default>arg1</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2Type</ID>
+          <ToolTip>Replace with the type of the 2nd argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2</ID>
+          <ToolTip>Replace with the name of the 2nd argument</ToolTip>
+          <Default>arg2</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ static $returnType$ $name$($arg1Type$ $arg1$, $arg2Type$ $arg2$)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- smethod3 -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>static method with three arguments</Title>
+      <Shortcut>smethod3</Shortcut>
+      <Description>Code snippet for a public static method with three arguments</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>void</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1Type</ID>
+          <ToolTip>Replace with the type of the 1st argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg1</ID>
+          <ToolTip>Replace with the name of the 1st argument</ToolTip>
+          <Default>arg1</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2Type</ID>
+          <ToolTip>Replace with the type of the 2nd argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg2</ID>
+          <ToolTip>Replace with the name of the 2nd argument</ToolTip>
+          <Default>arg2</Default>
+        </Literal>
+        <Literal>
+          <ID>arg3Type</ID>
+          <ToolTip>Replace with the type of the 3rd argument</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>arg3</ID>
+          <ToolTip>Replace with the name of the 3rd argument</ToolTip>
+          <Default>arg3</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ static $returnType$ $name$($arg1Type$ $arg1$, $arg2Type$ $arg2$, $arg3Type$ $arg3$)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+ 
+  <!-- amethod -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>async method</Title>
+      <Shortcut>amethod</Shortcut>
+      <Description>Code snippet for an async method</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Threading.Tasks</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ async Task<$returnType$> $name$Async()
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- asmethod -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>async static method</Title>
+      <Shortcut>asmethod</Shortcut>
+      <Description>Code snippet for an async static method</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Threading.Tasks</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>returnType</ID>
+          <ToolTip>Replace with the type of the method return value</ToolTip>
+          <Default>object</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ static async Task<$returnType$> $name$Async()
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- eh -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>event handler</Title>
+      <Shortcut>eh</Shortcut>
+      <Description>Code snippet for an event handler method</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>private</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>eventArgsType</ID>
+          <ToolTip>Replace with the name of the event argument type</ToolTip>
+          <Default>EventArgs</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ void $name$(object sender, $eventArgsType$ e)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- seh -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>static event handler</Title>
+      <Shortcut>seh</Shortcut>
+      <Description>Code snippet for an event handler static method</Description>
+      <Author>J.Sakamoto</Author>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>accessControll</ID>
+          <ToolTip>Replace with the access controll type</ToolTip>
+          <Default>private</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the method</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+        <Literal>
+          <ID>eventArgsType</ID>
+          <ToolTip>Replace with the name of the event argument type</ToolTip>
+          <Default>EventArgs</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[$accessControll$ static void $name$(object sender, $eventArgsType$ e)
+      {
+          $end$
+          throw new NotImplementedException();
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+
+</CodeSnippets>
+

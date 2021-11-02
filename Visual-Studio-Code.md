@@ -1,21 +1,21 @@
 ## General
-| Title                                   | Command                |
-| --------------------------------------- | ---------------------- |
-| Command Palette                         | **CTRL + SHIFT + P**   |
-| Search file                             | **CTRL + P**           |
-| Toggle explorer                         | **CTRL + B**           |
-| Change file name                        | **F2**                 |
-| New VSCode window                       | **CTRL + SHIFT + N**   |
-| Close window                            | **CTRL + W**           |
-| Save file                               | **CTRL + S**           |
-| Start                                   | **F5**                 |
-| Open terminal                           | **CTRL + SHIFT + Ö**   |
-| Open folder                             | **CTRL + K, CTRL + O** |
-| Find and edit all occurrences of a word | **CTRL + SHIFT + L**   |
-| Format                                  | **SHIFT + ALT + F**    |
-| Reveal in file explorer                 | **SHIFT + ALT + R**    |
-| Open recent folders                     | **CTRL + R**           |
-| Save as                                 | **CTRL + SHIFT + S**   |
+| Title                                   | Command                    |
+| --------------------------------------- | -------------------------- |
+| Command Palette                         | **CTRL + SHIFT + P or F1** |
+| Search file                             | **CTRL + P**               |
+| Toggle explorer                         | **CTRL + B**               |
+| Change file name                        | **F2**                     |
+| New VSCode window                       | **CTRL + SHIFT + N**       |
+| Close window                            | **CTRL + W**               |
+| Save file                               | **CTRL + S**               |
+| Start                                   | **F5**                     |
+| Open terminal                           | **CTRL + SHIFT + Ö**       |
+| Open folder                             | **CTRL + K, CTRL + O**     |
+| Find and edit all occurrences of a word | **CTRL + SHIFT + L**       |
+| Format                                  | **SHIFT + ALT + F**        |
+| Reveal in file explorer                 | **SHIFT + ALT + R**        |
+| Open recent folders                     | **CTRL + R**               |
+| Save as                                 | **CTRL + SHIFT + S**       |
 
 ##  Lines 
 | Title         | Command                         |
@@ -39,19 +39,35 @@
 | Select word      | **CTRL + D**                |
 
 ## Navigation
- | Title                       | Command          |
- | --------------------------- | ---------------- |
- | Go to line                  | **CTRL + G**     |
- | Go to next error/warning    | **F8**           |
- | Find                        | **CTRL + F**     |
- | Search                      | **CTRL+SHIFT+F** |
- | Go to beginning/end of line | **Home/End**     |
- | Quick switch tab            | **CTRL + TAB**   |
+ | Title                              | Command              |
+ | ---------------------------------- | -------------------- |
+ | Go to line                         | **CTRL + G**         |
+ | Go to next error/warning           | **F8**               |
+ | Find                               | **CTRL + F**         |
+ | Search                             | **CTRL+SHIFT+F**     |
+ | Go to beginning/end of line        | **Home/End**         |
+ | Quick switch tab                   | **CTRL + TAB**       |
+ | Go to next error                   | **F8**               |
+ | Go to previous error               | **Shift + F8**       |
+ | Search symbols in current document | **CTRL + SHIFT + O** |
 
  ## Codestream
  | Title       | Command                                |
  | ----------- | -------------------------------------- |
  | Add comment | **CTRL + SHIFT + ', CTRL + SHIFT + C** |
+
+ ## Search
+ | Title                                            | Command              | Key   |
+ | ------------------------------------------------ | -------------------- | ----- |
+ | Open Search  / find file                         | **CTRL + P**         |       |
+ | Execute Command                                  | **CTRL + SHIFT + P** | **>** |
+ | Go To Symbol in file                             | **CTRL + SHIFT + 0** | **@** |
+ | Multiple times to edit the highlighted items     | **CTRL + D**         |
+ | Highlight line by line                           | **CTRL + L**         |
+ | Find Symbol                                      |                      | **#** |
+ | Can click on several and change at the same time | **ALT+CLICK**        |
+ 
+
 
 #### Resources
 - [VSCode cheat sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)

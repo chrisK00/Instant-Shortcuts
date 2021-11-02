@@ -15,48 +15,50 @@
       <Shortcut>cCdi</Shortcut>
     </Header>
     <Snippet>
-      <Code Language="csharp" Delimiter="$"><![CDATA[  /*
-         EXAMPLE
-        var serviceProvider = ConfigureServices().BuildServiceProvider();
-        serviceProvider.GetRequiredService<Menu>().Run();
-        */
-
-        /*
-        EXAMPLE
-         services.Configure<ApiUriSettings>(config.GetSection(nameof(ApiUriSettings)));
-         services.AddSingleton<NaLogger>();
-         services.AddScoped<Menu>();
-         */
-
-        /*
-         INFO
-        make an appsettings.json file (shift+f2) then set copytooutput ifnewer
-        packages:
-        ms extensions configuration
-        ms extensions dependency injection
-        ms extensions configuration json
-        ms extensions options
-        */
+      <Code Language="csharp" Delimiter="$"><![CDATA[  
+   // var serviceProvider = ConfigureServices().BuildServiceProvider();
+   // serviceProvider.GetRequiredService<Menu>().Run();
+   //services.Configure<ApiUriSettings>(config.GetSection(nameof(ApiUriSettings)));
+   //services.AddScoped<Menu>();
+   //make an appsettings.json file(shift+f2) then set copytooutput ifnewer
+   //Install-Package Microsoft.Extensions.Configuration
+   //Install-Package Microsoft.Extensions.Configuration.FileExtensions
+   //Install-Package Microsoft.Extensions.Configuration.Json
+   //Install-Package Microsoft.Extensions.DependencyInjection
+   //Install-Package Microsoft.Extensions.Logging
+   //Install-Package Microsoft.Extensions.Logging.Console
+   //Install-Package Microsoft.Extensions.Options
 
         private static IServiceCollection ConfigureServices()
         {
             var services = new ServiceCollection();
             var config = ConfigureBuild();
-
+			
+			services.AddLogging(opt => opt.AddConsole());
+			
             return services;
         }
 
-        private static IConfigurationRoot ConfigureBuild()
-        {
-            return new ConfigurationBuilder()
-                  .SetBasePath(Directory.GetCurrentDirectory())
-                  .AddJsonFile("appsettings.json")
-                  .Build();
-        }]]></Code>
+         private static IConfigurationRoot ConfigureBuild() =>
+			new ConfigurationBuilder()
+              .SetBasePath(Directory.GetCurrentDirectory())
+              .AddJsonFile("appsettings.json")
+              .Build();]]></Code>
       <Imports>
         <Import>
-          <Namespace>Microsoft.Extensions.Hosting</Namespace>
+          <Namespace>Microsoft.Extensions.DependencyInjection</Namespace>
+		    </Import>
+			
+		  <Import>
+          <Namespace>Microsoft.Extensions.Logging</Namespace>
+		    </Import>
+			
+			 <Import>
+          <Namespace>Microsoft.Extensions.Configuration</Namespace>
         </Import>
+		<import>
+		<Namespace>System.IO</Namespace>
+		</import>
       </Imports>
     </Snippet>
   </CodeSnippet>

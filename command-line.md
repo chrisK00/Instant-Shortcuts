@@ -1,8 +1,9 @@
  ## Open
- | Title                 | Command     |
- | --------------------- | ----------- |
- | Open in VSCode        | **code .**  |
- | Open in file explorer | **start .** |
+ | Title                       | Command     |
+ | --------------------------- | ----------- |
+ | Open in VSCode              | **code .**  |
+ | Open in file explorer       | **start .** |
+ | Open in new terminal window | **start**   |
 
   ## General
  | Title                              | Command   |

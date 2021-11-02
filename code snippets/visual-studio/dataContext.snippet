@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>DataContext</Title>
+			<Shortcut>cDataContext</Shortcut>
+			<Description>Code snippet for Data Context intellisense in xaml</Description>
+			<Author>Chris Corporation</Author>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal Editable="true">
+					<ID>ViewModel</ID>
+				</Literal>
+			</Declarations>
+			<Code Language="xaml">
+        <![CDATA[d:DataContext="{d:DesignInstance local:$ViewModel$, IsDesignTimeCreatable=True}"]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

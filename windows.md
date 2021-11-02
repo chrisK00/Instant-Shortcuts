@@ -1,9 +1,11 @@
 ## Windows
- | Title           | Command              |
- | --------------- | -------------------- |
- | Move Window     | **WinKey + [arrow]** |
- | Task View       | **WinKey + Tab**     |
- | Quick task view | **ALT + TAB**        |
+ | Title                 | Command              |
+ | --------------------- | -------------------- |
+ | Move Window           | **WinKey + [arrow]** |
+ | Task View             | **WinKey + Tab**     |
+ | Quick task view       | **ALT + TAB**        |
+ | Start menu next tab   | **TAB**              |
+ | Start menu navigation | **[arrow]**          |
 
 ## Draw IO
  | Title      | Command      |
@@ -47,6 +49,8 @@
  | Go to bottom/top                                   | **CTRL + Home/End**       |
  | Quick link                                         | **CTRL + X**              |
  | Delete backwards                                   | **Delete**                |
+ | Select range                                       | **Shift**                 |
+ | Select specific items                              | **CTRL**                  |
  | Delete line backwards                              | **CTRL + Shift + Delete** |
  | Navigate with keyboard (not supported by all apps) | **ALT + [arrow]]**        |
 
