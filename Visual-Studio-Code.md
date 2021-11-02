@@ -59,9 +59,9 @@
  ## Search
  | Title                                        | Command              | Key   |
  | -------------------------------------------- | -------------------- | ----- |
- | Find Files                                   | **CTRL + P**         | **@** |
+ | Find Files                                   | **CTRL + P**         |       |
  | Command Palette                              | **CTRL + SHIFT + P** | **>** |
- | Go To Symbol                                 | **CTRL + SHIFT + 0** | **#** |
+ | Go To Symbol                                 | **CTRL + SHIFT + 0** |       |
  | Multiple times to edit the highlighted items | **CTRL + D**         |
  | On multiple places works aswell              | **ALT+ CLICK**       |
  | Highlight line by line                       | **CTRL + L**         |
