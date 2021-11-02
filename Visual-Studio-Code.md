@@ -59,12 +59,12 @@
  ## Search
  | Title                                        | Command              | Key   |
  | -------------------------------------------- | -------------------- | ----- |
- | Find Files                                   | **CTRL + P**         |       |
- | Command Palette                              | **CTRL + SHIFT + P** | **>** |
- | Go To Symbol                                 | **CTRL + SHIFT + 0** |       |
+ | Open Search  / find file                     | **CTRL + P**         |       |
+ | Execute Command                              | **CTRL + SHIFT + P** | **>** |
+ | Go To Symbol in file                         | **CTRL + SHIFT + 0** | **@** |
  | Multiple times to edit the highlighted items | **CTRL + D**         |
- | On multiple places works aswell              | **ALT+ CLICK**       |
  | Highlight line by line                       | **CTRL + L**         |
+ | Find Symbol                                  |                      | **#** |
  
 
 
