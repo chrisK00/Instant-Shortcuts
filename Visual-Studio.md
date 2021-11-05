@@ -7,7 +7,7 @@
  | Set/remove Breakpoint       | **F9**                   |
  | Uncomment                   | **CTRL + K, CTRL + U**   |
  | View constructors/overloads | **CTRL + SHIFT + SPACE** |
- | Open search                 |    **CTRL + T**          |
+ | Open search                 | **CTRL + T**             |
 
 
  ## Refactor/Format
@@ -63,11 +63,11 @@
  | Recent files   | **CTRL + 1, r** | **r**                |
 
  ## Package manager console
- | Title                   | Command                              |
- | ----------------------- | ------------------------------------ |
- | Install package         | **install-package**                  |
- | add migration           | **add-migration --verbose**          |
- | first migration         | **add-migration -o Data/Migrations** |
- | remove recent migration | **remove-migration**                 |
- | update databse          | **update-database**                  |
- | drop database           | **drop-database**                    |
+ | Title                   | Command                                                       |
+ | ----------------------- | ------------------------------------------------------------- |
+ | Install package         | **install-package**                                           |
+ | add migration           | **add-migration --verbose**                                   |
+ | first migration         | **add-migration -o Data/Migrations or -Namespace Migrations** |
+ | remove recent migration | **remove-migration**                                          |
+ | update databse          | **update-database**                                           |
+ | drop database           | **drop-database**                                             |
