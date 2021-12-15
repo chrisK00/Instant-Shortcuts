@@ -29,8 +29,8 @@
  | Rename branch                                                                  | **git branch -m**         |
  | Reset branch commits                                                           | **git reset HEAD~**       |
  | Remove changes                                                                 | **git reset --hard**      |
- | Branch status                                                                  | **git merge [from] [to]** |
- | Merge branch                                                                   | **git status**            |
+ | Branch status                                                                  | **git status** |
+ | Merge branch                                                                   |  **git merge [from] [to]**          |
  | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                           |
 
  ## dotnet cli
