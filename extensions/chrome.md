@@ -8,5 +8,8 @@
 | Tick tick                  |      |
 | trafficlight               |      |
 | ublock origin              |      |
-| adblock                    |      |
+| adblock plus               |      |
 | JSON beautifier and editor |      |
+| ColorPick eye dropper      |      |
+| css viewer                 |      |
+

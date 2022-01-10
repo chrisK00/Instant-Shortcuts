@@ -11,6 +11,7 @@
  | set bookmark                | **CTRL + K, K**          |
  | show bookmarks              | **CTRL + K, W**          |
  | next bookmark               | **CTRL + K, N**          |
+ | Show references             | **ALT + 2**              |
  | Modify multiple lines       | **CTRL + ALT, Click**    |
 
 
