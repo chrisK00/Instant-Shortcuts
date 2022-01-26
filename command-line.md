@@ -29,6 +29,8 @@
  | New branch or view branches                                                    | **git branch**            |
  | Push branch to remote                                                          | **git push**              |
  | Rename branch                                                                  | **git branch -m**         |
+ | Remove branch                                                                  | **git branch -d [name]**  |
+ | List branches                                                                  | **git branch -l**         |
  | Reset branch commits                                                           | **git reset HEAD~**       |
  | Remove changes                                                                 | **git reset --hard**      |
  | Branch status                                                                  | **git merge [from] [to]** |
