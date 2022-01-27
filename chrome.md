@@ -25,5 +25,22 @@
  | Reload                 | **F5**                          |
  | Reload and clear cache | **CTRL + F5** OR **SHIFT + F5** |
 
+ ## Google Search Tips
+ | Title         | Command                        |
+ | ------------- | ------------------------------ |
+ | Specific site | **site:[domain]**              |
+ | Exact phrase  | **"[phrase]"**                 |
+ | Filetype      | **filetype:pdf**               |
+ | Exclude       | **-[word]**                    |
+ | Date          | **After:[date]/Before:[date]** |
+ | Or            | **[search1] \| [search2]**     |
+
+
+ ## Gmail Search tips
+ | Title                  | Command                  |
+ | ---------------------- | ------------------------ |
+ | find all read by label | **label:github is:read** |
+ | show not starred       | **-is:starred**          |
+
 #### Resources
 - [computerhope chrome shortcuts](https://www.computerhope.com/shortcut/chrome.htm)
