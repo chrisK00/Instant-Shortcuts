@@ -18,26 +18,27 @@
  | shutdown in x seconds              | **shutdown -s -t [time]** |
 
 ## Git
- | Title                                                                          | Command                   |
- | ------------------------------------------------------------------------------ | ------------------------- |
- | initialize a local repo                                                        | **git init**              |
- | Track all files                                                                | **git add .**             |
- | Commit staged changes                                                          | **git commit -m**         |
- | Commit all changes                                                             | **git commit -am**        |
- | Reset changes in current branch                                                | **git reset --hard**      |
- | New branch and check it out                                                    | **git checkout -b**       |
- | New branch or view branches                                                    | **git branch**            |
- | Push branch to remote                                                          | **git push**              |
- | Rename branch                                                                  | **git branch -m**         |
- | Remove branch                                                                  | **git branch -d [name]**  |
- | List branches                                                                  | **git branch -l**         |
- | Reset branch commits                                                           | **git reset HEAD~**       |
- | Remove changes                                                                 | **git reset --hard**      |
- | Branch status                                                                  | **git merge [from] [to]** |
- | Merge branch                                                                   | **git status**            |
- | save changes so you can checkout another branch                                | **git stash**             |
- | get back changes                                                               | **git stash pop**         |
- | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                           |
+ | Title                                                                          | Command                     |
+ | ------------------------------------------------------------------------------ | --------------------------- |
+ | initialize a local repo                                                        | **git init**                |
+ | Track all files                                                                | **git add .**               |
+ | Commit staged changes                                                          | **git commit -m**           |
+ | Commit all changes                                                             | **git commit -am**          |
+ | Reset changes in current branch                                                | **git reset --hard**        |
+ | New branch and check it out                                                    | **git checkout -b**         |
+ | New branch or view branches                                                    | **git branch**              |
+ | Push branch to remote                                                          | **git push**                |
+ | Rename branch                                                                  | **git branch -m**           |
+ | Remove branch                                                                  | **git branch -d [name]**    |
+ | List branches                                                                  | **git branch -l**           |
+ | Reset last commit but keep changes                                             | **git reset HEAD~**         |
+ | Remove changes                                                                 | **git reset --hard**        |
+ | Unstage last commit but keep changes                                           | **git reset HEAD~1 --soft** |
+ | Branch status                                                                  | **git merge [from] [to]**   |
+ | Merge branch                                                                   | **git status**              |
+ | save changes so you can checkout another branch                                | **git stash**               |
+ | get back changes                                                               | **git stash pop**           |
+ | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                             |
 
  ## dotnet cli
  | Title                                         | Command                                                      |
