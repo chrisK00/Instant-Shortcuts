@@ -27,7 +27,6 @@
 | mongodb for vs code                      |      |
 | nuget gallery                            |      |
 | output colorizer                         |      |
-| paste json as code                       |      |
 | path intellisense                        |      |
 | quokka.js                                |      |
 | rainbow csv                              |      |
