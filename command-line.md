@@ -51,6 +51,8 @@
  | list templates                                | **dotnet new -l**                                            |
  | build project (becomes IL files .dll)         | **dotnet build**                                             |
  | restore dependencies                          | **dotnet restore**                                           |
+ | list tools                                    | **dotnet tool list -g**                                      |
+ | remove tool                                   | **dotnet tool uninstall packageName -g**                     |
  | New solution                                  | **dotnet new sln -o [name]**                                 |
  | add project to sln                            | **dotnet sln [name] add [name]**                             |
  | add a user secrets file                       | **dotnet user-secrets init**                                 |
