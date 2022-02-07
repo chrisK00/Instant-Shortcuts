@@ -12,6 +12,22 @@
  | ---------- | ------------ |
  | Copy paste | **CTRL + D** |
  | Rename     | **F2**       |
+
+ ##  General
+| Title            | Command                |
+| ---------------- | ---------------------- |
+| Settings         | **CTRL + ,**           |
+| Toggle sidebar   | **CTRL + §**           |
+| Close request    | **CTRL + W**           |
+| next request     | **CTRL + TAB**         |
+| previous request | **CTRL + Shift + TAB** |
+| new request      | **CTRL + T**           |
+| reopen request   | **CTRL + Shift +T**    |
+| save request     | **CTRL + S**           |
+| copy url         | **CTRL + L**           |
+| send request     | **CTRL + Enter**       |
+| search           | **CTRL + K**           |
+| go to request    | **CTRL + [Number]**    |
  
 ## 1Passw
  | Title     | Command             |

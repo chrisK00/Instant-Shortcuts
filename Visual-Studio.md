@@ -44,19 +44,21 @@
  | Build             | **CTRL + B**          |
 
    ## Navigation
- | Title                 | Command              |
- | --------------------- | -------------------- |
- | Quick navigate        | CTRL + TAB           |
- | Peek definition       | **ALT + F12**        |
- | Go to definition      | **F12**              |
- | Go to implementation  | **CTRL + F12**       |
- | Find text             | **CTRL + F**         |
- | Find references       | **SHIFT + F12**      |
- | Delete text backwards | **Del**              |
- | Close open tab        | **CTRL + F4**        |
- | Next/Prev tab         | **CTRL + PgUp/PgDn** |
- | Next error            | **F8**               |
- | Previous error        | **F8 + Shift**       |
+ | Title                                                                | Command              |
+ | -------------------------------------------------------------------- | -------------------- |
+ | Quick navigate                                                       | CTRL + TAB           |
+ | Peek definition                                                      | **ALT + F12**        |
+ | Go to definition                                                     | **F12**              |
+ | Go to implementation                                                 | **CTRL + F12**       |
+ | Find text                                                            | **CTRL + F**         |
+ | Find references                                                      | **SHIFT + F12**      |
+ | Delete text backwards                                                | **Del**              |
+ | Close open tab                                                       | **CTRL + F4**        |
+ | Next/Prev tab (works for docket panels aswell f.e solution explorer) | **CTRL + PgUp/PgDn** |
+ | Open output                                                          | **CTRL + ALT + O**   |
+ | Solution Explorer                                                    | **CTRL + ALT + L**   |
+ | Next error                                                           | **F8**               |
+ | Previous error                                                       | **F8 + Shift**       |
  
  ## Search
  | Title          | Command         | Key (case sensitive) |
