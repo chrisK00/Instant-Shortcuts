@@ -17,6 +17,7 @@
  | Create folder                      | **mkdir**                 |
  | Remove folder                      | **rmdir**                 |
  | get current path                   | **pwd**                   |
+ | open windows terminal              | **CTRL + ALT + W**        |
  | shutdown in x seconds              | **shutdown -s -t [time]** |
 
 ## Git
