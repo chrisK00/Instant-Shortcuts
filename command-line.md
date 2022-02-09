@@ -16,7 +16,7 @@
  | list files in open directory       | **ls**                    |
  | Create folder                      | **mkdir**                 |
  | Remove folder                      | **rmdir**                 |
- | pwd                                | **get current path**      |
+ | get current path                   | **pwd**                   |
  | shutdown in x seconds              | **shutdown -s -t [time]** |
 
 ## Git
