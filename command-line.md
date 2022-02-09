@@ -20,6 +20,16 @@
  | open windows terminal              | **CTRL + ALT + W**        |
  | shutdown in x seconds              | **shutdown -s -t [time]** |
 
+ ## Windows Terminal
+| Title           | Command              |
+| --------------- | -------------------- |
+| New tab         | **CTRL + T**         |
+| close tab       | **CTRL + W**         |
+| Next tab        | **CTRL + TAB**       |
+| Command palette | **CTRL + SHIFT + P** |
+| Find            | **CTRL + F**         |
+| switch to tab   | **CTRL + [Num]**     |
+
 ## Git
  | Title                                                                          | Command                     |
  | ------------------------------------------------------------------------------ | --------------------------- |
