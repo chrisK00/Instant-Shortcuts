@@ -1,10 +1,11 @@
  ## Open
- | Title                               | Command              |
- | ----------------------------------- | -------------------- |
- | Open in VSCode                      | **code .**           |
- | Open in file explorer               | **start .**          |
- | Close open/running tool             | **CTRL + C**         |
- | Open new window/open specified file | **start [fileName]** |
+ | Title                                                 | Command              |
+ | ----------------------------------------------------- | -------------------- |
+ | Open in VSCode                                        | **code .**           |
+ | Open in file explorer                                 | **start .**          |
+ | run app (enter its name like wt for windows terminal) | **WIN + R**          |
+ | Close open/running tool                               | **CTRL + C**         |
+ | Open new window/open specified file                   | **start [fileName]** |
 
   ## General
  | Title                              | Command                   |
