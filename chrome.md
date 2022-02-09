@@ -1,11 +1,14 @@
 ## General
- | Title                     | Command      |
- | ------------------------- | ------------ |
- | Chrome dev tools          | **F12**      |
- | Select everything         | **CTRL + A** |
- | Downloads window          | **CTRL + J** |
- | View a page's source html | **CTRL + U** |
- | Fullscreen                | **F11**      |
+ | Title                     | Command              |
+ | ------------------------- | -------------------- |
+ | Chrome dev tools          | **F12**              |
+ | Select everything         | **CTRL + A**         |
+ | Downloads window          | **CTRL + J**         |
+ | View a page's source html | **CTRL + U**         |
+ | Fullscreen                | **F11**              |
+ | bookmarks                 | **CTRL + SHIFT + O** |
+ | downloads                 | **CTRL + J**         |
+ | History                   | **CTRL + H**         |
 
 
 ## Navigation
