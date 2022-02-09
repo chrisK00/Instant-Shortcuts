@@ -1,9 +1,11 @@
  ## Open
- | Title                               | Command              |
- | ----------------------------------- | -------------------- |
- | Open in VSCode                      | **code .**           |
- | Open in file explorer               | **start .**          |
- | Open new window/open specified file | **start [fileName]** |
+ | Title                                                 | Command              |
+ | ----------------------------------------------------- | -------------------- |
+ | Open in VSCode                                        | **code .**           |
+ | Open in file explorer                                 | **start .**          |
+ | run app (enter its name like wt for windows terminal) | **WIN + R**          |
+ | Close open/running tool                               | **CTRL + C**         |
+ | Open new window/open specified file                   | **start [fileName]** |
 
   ## General
  | Title                              | Command                   |
@@ -14,26 +16,42 @@
  | list files in open directory       | **ls**                    |
  | Create folder                      | **mkdir**                 |
  | Remove folder                      | **rmdir**                 |
- | pwd                                | **get current path**      |
+ | get current path                   | **pwd**                   |
+ | open windows terminal              | **CTRL + ALT + W**        |
  | shutdown in x seconds              | **shutdown -s -t [time]** |
 
+ ## Windows Terminal
+| Title           | Command              |
+| --------------- | -------------------- |
+| New tab         | **CTRL + T**         |
+| close tab       | **CTRL + W**         |
+| Next tab        | **CTRL + TAB**       |
+| Command palette | **CTRL + SHIFT + P** |
+| Find            | **CTRL + F**         |
+| switch to tab   | **CTRL + [Num]**     |
+
 ## Git
- | Title                                                                          | Command                   |
- | ------------------------------------------------------------------------------ | ------------------------- |
- | initialize a local repo                                                        | **git init**              |
- | Track all files                                                                | **git add .**             |
- | Commit staged changes                                                          | **git commit -m**         |
- | Commit all changes                                                             | **git commit -am**        |
- | Reset changes in current branch                                                | **git reset --hard**      |
- | New branch and check it out                                                    | **git checkout -b**       |
- | New branch or view branches                                                    | **git branch**            |
- | Push branch to remote                                                          | **git push**              |
- | Rename branch                                                                  | **git branch -m**         |
- | Reset branch commits                                                           | **git reset HEAD~**       |
- | Remove changes                                                                 | **git reset --hard**      |
- | Branch status                                                                  | **git status** |
- | Merge branch                                                                   |  **git merge [from] [to]**          |
- | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                           |
+ | Title                                                                          | Command                     |
+ | ------------------------------------------------------------------------------ | --------------------------- |
+ | initialize a local repo                                                        | **git init**                |
+ | Track all files                                                                | **git add .**               |
+ | Commit staged changes                                                          | **git commit -m**           |
+ | Commit all changes                                                             | **git commit -am**          |
+ | Reset changes in current branch                                                | **git reset --hard**        |
+ | New branch and check it out                                                    | **git checkout -b**         |
+ | New branch or view branches                                                    | **git branch**              |
+ | Push branch to remote                                                          | **git push**                |
+ | Rename branch                                                                  | **git branch -m**           |
+ | Remove branch                                                                  | **git branch -d [name]**    |
+ | List branches                                                                  | **git branch -l**           |
+ | Reset last commit but keep changes                                             | **git reset HEAD~**         |
+ | Remove changes                                                                 | **git reset --hard**        |
+ | Unstage last commit but keep changes                                           | **git reset HEAD~1 --soft** |
+ | Branch status                                                                  | **git merge [from] [to]**   |
+ | Merge branch                                                                   | **git status**              |
+ | save changes so you can checkout another branch                                | **git stash**               |
+ | get back changes                                                               | **git stash pop**           |
+ | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                             |
 
  ## dotnet cli
  | Title                                         | Command                                                      |
@@ -46,6 +64,8 @@
  | list templates                                | **dotnet new -l**                                            |
  | build project (becomes IL files .dll)         | **dotnet build**                                             |
  | restore dependencies                          | **dotnet restore**                                           |
+ | list tools                                    | **dotnet tool list -g**                                      |
+ | remove tool                                   | **dotnet tool uninstall packageName -g**                     |
  | New solution                                  | **dotnet new sln -o [name]**                                 |
  | add project to sln                            | **dotnet sln [name] add [name]**                             |
  | add a user secrets file                       | **dotnet user-secrets init**                                 |
