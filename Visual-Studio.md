@@ -56,7 +56,7 @@
  | Close open tab                                                       | **CTRL + F4**        |
  | Next/Prev tab (works for docket panels aswell f.e solution explorer) | **CTRL + PgUp/PgDn** |
  | Open output                                                          | **CTRL + ALT + O**   |
- | Solution Explorer                                                    | **CTRL + ALT + L**   |
+ | Solution Explorer (then navigate with arrow keys)                    | **CTRL + ALT + L**   |
  | Next error                                                           | **F8**               |
  | Previous error                                                       | **F8 + Shift**       |
  
