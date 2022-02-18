@@ -51,6 +51,7 @@
  | Merge branch                                                                   | **git status**              |
  | save changes so you can checkout another branch                                | **git stash**               |
  | get back changes                                                               | **git stash pop**           |
+ | Exit git log/pager                                                             | **Q**                       |
  | Merge conflict. Switch to the new branch, merge master in to it, fix conflicts |                             |
 
  ## dotnet cli
