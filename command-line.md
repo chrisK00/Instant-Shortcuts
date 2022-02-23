@@ -20,15 +20,20 @@
  | open windows terminal              | **CTRL + ALT + W**        |
  | shutdown in x seconds              | **shutdown -s -t [time]** |
 
- ## Windows Terminal
-| Title           | Command              |
-| --------------- | -------------------- |
-| New tab         | **CTRL + T**         |
-| close tab       | **CTRL + W**         |
-| Next tab        | **CTRL + TAB**       |
-| Command palette | **CTRL + SHIFT + P** |
-| Find            | **CTRL + F**         |
-| switch to tab   | **CTRL + [Num]**     |
+ ## Windows Terminal/Powershell
+| Title                                              | Command                           |
+| -------------------------------------------------- | --------------------------------- |
+| New tab                                            | **CTRL + T**                      |
+| close tab                                          | **CTRL + W**                      |
+| Next tab                                           | **CTRL + TAB**                    |
+| Command palette                                    | **CTRL + SHIFT + P**              |
+| Find                                               | **CTRL + F**                      |
+| switch to tab                                      | **CTRL + [Num]**                  |
+| Install a module                                   | **Install-Module -Name [Name]**   |
+| Import an installed module (should add to profile) | **Import-Module -Name [Name]**    |
+| Open Profile                                       | **start $profile**                |
+| List modules                                       | **Get-Module -All**               |
+| New File                                           | **new-item [filename.extension]** |
 
 ## Git
  | Title                                                                          | Command                     |
