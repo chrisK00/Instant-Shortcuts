@@ -3,6 +3,8 @@
  | ------------------------- | -------------------- |
  | Chrome dev tools          | **F12**              |
  | Select everything         | **CTRL + A**         |
+ | Focus on explorer bar     | **ALT + D**          |
+ | Search tabs               | **CTRL + SHIFT + A** |
  | Downloads window          | **CTRL + J**         |
  | View a page's source html | **CTRL + U**         |
  | Fullscreen                | **F11**              |

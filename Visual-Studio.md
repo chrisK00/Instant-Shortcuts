@@ -35,15 +35,17 @@
  | Fullscreen                        | **SHIFT + ALT + Enter** |
 
   ## Run
- | Title             | Command               |
- | ----------------- | --------------------- |
- | Run tests         | **CTRL + R, A**       |
- | Run               | **F5**                |
- | Stop              | **SHIFT + F5**        |
- | Rerun             | **CTRL + SHIFT + F5** |
- | Run without debug | **CTRL + F5**         |
- | Build             | **CTRL + SHIFT + B**  |
- | Build             | **CTRL + B**          |
+ | Title             | Command                |
+ | ----------------- | ---------------------- |
+ | Run tests         | **CTRL + R, A**        |
+ | Run test          | **CTRL + R, T**        |
+ | Run test debug    | **CTRL + R, CTRL + T** |
+ | Run               | **F5**                 |
+ | Stop              | **SHIFT + F5**         |
+ | Rerun             | **CTRL + SHIFT + F5**  |
+ | Run without debug | **CTRL + F5**          |
+ | Build             | **CTRL + SHIFT + B**   |
+ | Build             | **CTRL + B**           |
 
    ## Navigation
  | Title                                                                | Command              |
