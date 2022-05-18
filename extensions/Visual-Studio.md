@@ -19,4 +19,3 @@
 | Github extension for visual studio     |                                                                                            |
 | Rider Dark theme                       |                                                                                            |
 
-
