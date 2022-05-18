@@ -13,7 +13,7 @@
  | Copy paste | **CTRL + D** |
  | Rename     | **F2**       |
 
- ##  General
+ ##  Postman
 | Title            | Command                |
 | ---------------- | ---------------------- |
 | Settings         | **CTRL + ,**           |
@@ -58,6 +58,11 @@
  | Title                                              | Command                   |
  | -------------------------------------------------- | ------------------------- |
  | Lock                                               | **WinKey + L**            |
+ | Cycle through taskbar                              | **WinKey + T**            |
+ | Sound                                              | **WinKey + G**            |
+ | Calendar                                           | **WinKey + N**            |
+ | Snap layout                                        | **WinKey + Z**            |
+ | Quick menu                                         | **WinKey + X**            |
  | Clipboard history                                  | **WinKey + V**            |
  | Settings                                           | **WinKey + I**            |
  | Open app from taskbar                              | **WinKey + [number]**     |
