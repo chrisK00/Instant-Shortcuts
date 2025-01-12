@@ -6,6 +6,7 @@
 - [Chrome](https://github.com/chrisK00/Instant-Shortcuts/blob/dev/chrome.md)
 - [Windows](https://github.com/chrisK00/Instant-Shortcuts/blob/dev/windows.md)
 - [Command Line](https://github.com/chrisK00/Instant-Shortcuts/blob/dev/command-line.md)
+- [GIT](https://github.com/chrisK00/Instant-Shortcuts/blob/dev/git.md)
 
 #### Markdown resources
 - [githubs guide](https://guides.github.com/features/mastering-markdown/)
